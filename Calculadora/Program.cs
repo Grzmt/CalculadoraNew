@@ -32,6 +32,11 @@ namespace Calculadora
             {
             resultado = n1 * n2
             }
+            
+            if (operacao = /)
+            {
+                resultado = n1/n2
+            }
         }
     }
 }
