@@ -28,6 +28,10 @@ namespace Calculadora
             resultado = n1 - n2
             }
             
+            if (operacao = x)
+            {
+            resultado = n1 * n2
+            }
         }
     }
 }
