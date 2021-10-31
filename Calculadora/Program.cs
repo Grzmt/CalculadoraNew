@@ -20,23 +20,30 @@ namespace Calculadora
             
             if(operacao = +)
             {
-            resultado = n1+n2
+            resultado = n1+n2;
             }
             
             if (operacao = -)
             {
-            resultado = n1 - n2
+            resultado = n1 - n2;
             }
             
             if (operacao = x)
             {
-            resultado = n1 * n2
+            resultado = n1 * n2;
             }
             
             if (operacao = /)
             {
-                resultado = n1/n2
+                resultado = n1/n2;
             }
+            
+            else
+            {
+            Console.Writeline("operação inválida")
+            }
+            
+            Console.Writeline("Resultado:", resultado)
         }
     }
 }
