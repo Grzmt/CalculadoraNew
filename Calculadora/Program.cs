@@ -6,7 +6,11 @@ namespace Calculadora
     {
         static void Main(string[] args)
         {
+            int n3 = null
+            
+            
             Console.WriteLine("Insira o primeiro número");
+            Console.Readline(n3);
         }
     }
 }
